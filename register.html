@@ -6,40 +6,42 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Register</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-<div>
+<div class="modal">
     <div>
         <span><img src="./img/closeButton.svg" alt="close"></span>
     </div>
-    <div>
+    <div class="title">
         <a href="#">Login</a><span>|</span><a href="#">Register</a>
     </div>
-    <p>Enter your email and password to register.</p>
+    <p class="text">Enter your email and password to register.</p>
     <form action="post" name="registerUser">
         <div>
-            <input type="text" name="username" id="userName" placeholder="Username">
+            <input class="border" type="text" name="username" id="userName" placeholder="Username">
         </div>
         <div>
-            <input type="email" name="email" id="email" placeholder="Enter your email address">
+            <input class="border" type="email" name="email" id="email" placeholder="Enter your email address">
         </div>
         <div>
-            <input type="password" name="password" id="password" placeholder="Password">
-            <span class="eyes-icon"></span>
+            <input class="border" type="password" name="password" id="password" placeholder="Password">
+            <span class="eyes-icon"><img src="./img/eye.svg" alt="Eye">  </span>
         </div>
         <div>
-            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+            <input class="border" type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
         </div>
         <button type="submit">Register</button>
     </form>
-    <div>
-        <p>Or register with</p>
+    <div class="wrapper-alternative-register">
+        <span class="line"></span><p class="text">Or register with</p><span class="line"></span>
     </div>
-    <div>
-        <a href="#"><span><img src="./img/google.svg" alt="Google"> </span> Continue with Google</a>
-        <a href="#"><span><img src="./img/facebok.svg"> </span> Continue with Facebook</a>
+    <div class="buttons">
+        <a href="#" class="border"><span><img src="./img/google.svg" alt="Google"></span> Continue with Google </a><br>
+        <a href="#" class="border"><span><img src="./img/facebok.svg"> </span> Continue with Facebook</a>
     </div>
 </div>
-<footer style="background-color: #46A358; height: 10px"></footer>
+<footer></footer>
 </body>
 </html>

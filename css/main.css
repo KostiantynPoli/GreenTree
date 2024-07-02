@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.modal {
+    max-width: 500px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    margin: 24px 0;
+}
+
+.title a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.title a:last-child {
+    color: #46a358;
+}
+
+.title a:hover {}
+
+.title span {
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin: 0 11px;
+}
+
+p.text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+}
+
+
+.border {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+input {
+    margin: 8px auto;
+}
+
+input[placeholder] {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
+    margin: 12px 0;
+    padding-left: 14px;
+}
+
+button {
+    background: #46a358;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    margin: 33px auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+}
+
+
+.wrapper-alternative-register {
+    margin: 3px 0;
+    padding: 19px 0;
+}
+.line {
+    /*Х3*/
+    /*display: inline-block;*/
+    border: 1px solid #eaeaea;
+    width: 95px;
+    height: 0;
+}
+
+.buttons a {
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 123%;
+    text-align: center;
+    color: #727272;
+    text-decoration: none;
+    padding: 12px 0;
+    margin: 8px auto;
+
+}
+
+.buttons span{
+    height: 20px;
+    text-align: center;
+    margin: 0 9px;
+}
+
+
+footer {
+    height: 10px;
+    background: #46a358;
+}
+
+/*.active {*/
+/*    color: greenyellow;*/
+/*}*/
+/*!* main color 46A358*!*/
+
+/*input {*/
+/*    border: solid 1px black;*/
+/*    padding: 10px 20px;*/
+/*}*/
+
+/*.text {*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*.title span {*/
+/*    color: yellowgreen;*/
+/*}*/
+
+/*button {*/
+/*    background-color:#46A358;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+
+/*button:hover {*/
+/*    background-color: green;*/
+/*    transform: rotate(180deg);*/
+/*    transition: 1s;*/
+/*}*/
