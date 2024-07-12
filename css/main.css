@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'cera_round_pro_demoregular';
+    src: url('./../fonts/ceraroundprodemo-regular-webfont.eot');
+    src: url('./../fonts/ceraroundprodemo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./../fonts/ceraroundprodemo-regular-webfont.woff2') format('woff2'),
+    url('./../fonts/ceraroundprodemo-regular-webfont.woff') format('woff'),
+    url('./../fonts/ceraroundprodemo-regular-webfont.ttf') format('truetype'),
+    url('./../fonts/ceraroundprodemo-regular-webfont.svg#cera_round_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +34,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 0.30px solid rgba(70, 163, 88, 0.5);
 }
 
 header ul {
@@ -35,6 +48,7 @@ header ul li {
 }
 
 ul li a {
+    font-family: 'cera_round_pro_demoregular';
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -42,10 +56,12 @@ ul li a {
 }
 
 ul li a:hover {
+    font-family: 'cera_round_pro_demoregular';
     font-weight: 700;
 }
 
 .loginButton{
+    font-family: 'cera_round_pro_demoregular';
     background: #46a358;
     border-radius: 6px;
     padding: 7px 17px;
@@ -63,11 +79,117 @@ ul li a:hover {
     padding-right: 7px;
 }
 
+.background-gray {
+    /*background: #fbfbfb;*/
+    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+}
+
+main .container {
+    margin-top: 12px;
+
+}
+
+.container-banner {
+    padding-left: 40px;
+    padding-top: 68px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.container-banner h2{
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-left: 3px;
+    margin-bottom: 7px;
+}
+
+.container-banner h1 {
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-right: 30px;
+}
+
+.container-banner h1 > span{
+    color: #46a358;
+}
+
+.container-banner p {
+    min-width: 557px;
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 44px;
+}
+
+.container-banner a {
+    margin-top: 44px;
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 27px;
+    background: #46a358;
+    border-radius: 6px;
+}
+
+.main {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.menu-wrapper{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu h3 {
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin: 14px 18px;
+}
 
 
+.main ul li {
+    margin: 11px 30px;
+}
 
+.main ul li a {
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 15px;
+    line-height: 267%;
+}
+.main ul li a:hover {
+    font-weight: 700;
+    color: #46a358;
+}
 
-
+.main .banner {
+    width: 310px;
+    height: 470px;
+}
 
 
 /*Register*/
