@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .container {
@@ -47,21 +48,21 @@ header ul li {
     margin: 8px 25px 25px;
 }
 
-ul li a {
-    font-family: 'cera_round_pro_demoregular';
+header ul li a {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
 }
 
-ul li a:hover {
-    font-family: 'cera_round_pro_demoregular';
+header ul li a:hover {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 700;
 }
 
 .loginButton{
-    font-family: 'cera_round_pro_demoregular';
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     background: #46a358;
     border-radius: 6px;
     padding: 7px 17px;
@@ -98,7 +99,7 @@ main .container {
 }
 
 .container-banner h2{
-    font-family: 'cera_round_pro_demoregular';
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -109,8 +110,9 @@ main .container {
     margin-bottom: 7px;
 }
 
+
 .container-banner h1 {
-    font-family: 'cera_round_pro_demoregular';
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
@@ -119,13 +121,13 @@ main .container {
     margin-right: 30px;
 }
 
-.container-banner h1 > span{
+.container-banner h1 span{
     color: #46a358;
 }
 
 .container-banner p {
     min-width: 557px;
-    font-family: 'cera_round_pro_demoregular';
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -135,7 +137,7 @@ main .container {
 
 .container-banner a {
     margin-top: 44px;
-    font-family: 'cera_round_pro_demoregular';
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -155,13 +157,14 @@ main .container {
 }
 
 .menu-wrapper{
-    width: 310px;
+    max-width: 310px;
     display: flex;
     flex-direction: column;
+    margin-right: 39px;
 }
 
 .menu h3 {
-    font-family: 'cera_round_pro_demoregular';
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
@@ -170,26 +173,169 @@ main .container {
 }
 
 
-.main ul li {
+.menu-wrapper ul li {
     margin: 11px 30px;
 }
 
-.main ul li a {
-    font-family: 'cera_round_pro_demoregular';
+.menu-wrapper ul li a {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 400;
     color: #3d3d3d;
     font-size: 15px;
     line-height: 267%;
 }
-.main ul li a:hover {
+.menu-wrapper ul li a:hover {
     font-weight: 700;
     color: #46a358;
 }
 
-.main .banner {
+.menu-wrapper .banner {
     width: 310px;
     height: 470px;
 }
+
+.products-wrapper{
+    max-width: 838px;
+    margin: 0 11px;
+}
+
+.categories-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+.categories-sort ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.categories-sort ul li{
+    margin: 0 20px;
+    padding-bottom: 7px;
+}
+.categories-sort ul li:first-of-type{
+    margin-left: 0;
+}
+
+.categories-sort ul li a{
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+
+}
+.categories-sort ul li a:hover{
+    font-weight: 700;
+    color: #46a358;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #46a358;
+}
+.categories-wrapper .sort_by{
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.sort_by label {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+}
+
+.sort_by select {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 35px;
+    margin-bottom: 90px;
+}
+
+.product-item {
+    max-width:258px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-item img {
+    padding: 4px;
+    background: #fbfbfb;
+    margin-bottom: 6px;
+}
+.product-item .name-price h3{
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    margin: 6px 0;
+}
+
+.product-item .name-price .price {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+}
+.pagination ul{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.pagination ul li a{
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    padding: 10px 12px;
+}
+
+.pagination ul li a:hover {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    background: #46a358;
+}
+/*Less 8*/
+.summer-collection{
+    margin-top: 130px;
+    margin-bottom: 69px;
+}
+
+.summer-collection .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.summer-collection .container article {*/
+
+/*}*/
+
+
+
+
+
 
 
 /*Register*/
