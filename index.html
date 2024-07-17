@@ -21,7 +21,15 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Shop</a></li>
-                    <li><a href="#">Plan Care</a></li>
+                    <li class="dropdown">
+                        <a href="#">Plan Care</a>
+                        <ul>
+                            <li><a href="#">Drainage</a></li>
+                            <li><a href="#">Fungicides</a></li>
+                            <li><a href="#">Fertilizer</a></li>
+                            <li><a href="#">Priming</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Blogs</a></li>
                 </ul>
             </nav>
@@ -154,81 +162,86 @@
                         <li><a href="#">2</a></li>
                         <li><a href="#">3</a></li>
                         <li><a href="#">4</a></li>
-                        <li><a href="#"><img src="./img/arrow.svg" alt="arrow right"></a></li>
+                        <li><a href="#">
+                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.375 0.75C1.375 0.75 6.625 3.858 6.625 6C6.625 8.14125 1.375 11.25 1.375 11.25" stroke="#3D3D3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a></li>
                     </ul>
                 </div>
             </div>
             </section>
-<!--            <section class="summer-collection">-->
-<!--                <div class="container">-->
-<!--                    <article>-->
-<!--                        <img src="./img/img14.svg" alt="img">-->
-<!--                        <div>-->
-<!--                            <h3>Summer cactus-->
-<!--                                & succulents</h3>-->
-<!--                            <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>-->
-<!--                            <a href="#" title="somesing">Find More</a>-->
-<!--                        </div>-->
-<!--                    </article>-->
-<!--                    <article class="summer-collection">-->
-<!--                        <img src="./img/img14.svg" alt="img">-->
-<!--                        <div>-->
-<!--                            <h3>Styling Trends-->
-<!--                                & much more</h3>-->
-<!--                            <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>-->
-<!--                            <a href="#" title="somesing">Find More</a>-->
-<!--                        </div>-->
-<!--                    </article>-->
-<!--                </div>-->
-<!--            </section>-->
-<!--            <section class="blog">-->
-<!--                <div class="container">-->
-<!--                        <h2>Our Blog Posts</h2>-->
-<!--                        <p>We are an online plant shop offering a wide range of cheap and trendy plants. </p>-->
-<!--                        <div class="post-card-collection">-->
-<!--                            <article>-->
-<!--                                <img src="" alt="pic">-->
-<!--                                <div>-->
-<!--                                    <span class="data"></span>|<span>Read 6 min</span>-->
-<!--                                    <h3>Cactus & Succulent-->
-<!--                                        Care Tips</h3>-->
-<!--                                    <p>Cacti are succulents are easy care plants for any home or patio. </p>-->
-<!--                                    <a href="#">Read more</a>-->
-<!--                                </div>-->
-<!--                            </article>-->
-<!--                            <article>-->
-<!--                                <img src="" alt="pic">-->
-<!--                                <div>-->
-<!--                                    <p>September 13 | </p>-->
-<!--                                    <h3>Cactus & Succulent Care Tips</h3>-->
-<!--                                    <p>Cacti are succulents are easy care plants for any home or patio. </p>-->
-<!--                                    <a href="#" title="Read more">Read more</a>-->
-<!--                                </div>-->
-<!--                            </article>-->
-<!--                            <article>-->
-<!--                                <img src="" alt="pic">-->
-<!--                                <div>-->
-<!--                                    <span class="data"></span>|<span>Read 6 min</span>-->
-<!--                                    <h3>Cactus & Succulent-->
-<!--                                        Care Tips</h3>-->
-<!--                                    <p>Cacti are succulents are easy care plants for any home or patio. </p>-->
-<!--                                    <a href="#">Read more</a>-->
-<!--                                </div>-->
-<!--                            </article>-->
-<!--                            <article>-->
-<!--                                <img src="" alt="pic">-->
-<!--                                <div>-->
-<!--                                    <span class="data"></span>|<span>Read 6 min</span>-->
-<!--                                    <h3>Cactus & Succulent-->
-<!--                                        Care Tips</h3>-->
-<!--                                    <p>Cacti are succulents are easy care plants for any home or patio. </p>-->
-<!--                                    <a href="#">Read more</a>-->
-<!--                                </div>-->
-<!--                            </article>-->
-<!--                        </div>-->
-<!--                </div>-->
-<!--            </section>-->
         </div>
+            <section class="summer-collection">
+                <div class="container">
+                    <article class="summer-item background-gray">
+                        <img class="img-summer-size" src="./img/img14.svg" alt="img">
+                        <div class="summer-item-description">
+                            <h3>Summer cactus
+                                & succulents</h3>
+                            <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+                            <a href="#" title="somesing">Find More <img src="./img/summer-item-arrow.svg" alt="Go to"></a>
+                        </div>
+                    </article>
+                    <article class="summer-item background-gray">
+                        <img src="./img/summer_item_2.png" alt="img">
+                        <div class="summer-item-description">
+                            <h3>Styling Trends
+                                & much more</h3>
+                            <p>We are an online plant shop offering a wide range of cheap and trendy plants</p>
+                            <a href="#" title="somesing">Find More <img src="./img/summer-item-arrow.svg" alt="Go to"></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="blog">
+                <div class="container">
+                        <h2>Our Blog Posts</h2>
+                        <p>We are an online plant shop offering a wide range of cheap and trendy plants. </p>
+                        <div class="post-card-collection">
+                            <article>
+                                <img src="./img/blog_1.png" alt="Blog image 1">
+                                <div>
+                                    <p>September 12  I Read in 6 minutes</p>
+                                    <h3>Cactus & Succulent
+                                        Care Tips</h3>
+                                    <p>Cacti are succulents are easy care plants for any home or patio. </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./img/blog_2.png" alt="Blog image 2">
+                                <div>
+                                    <p>September 13  I Read in 2 minutes</p>
+                                    <h3>Cactus & Succulent Care Tips</h3>
+                                    <p>Cacti are succulents are easy care plants for any home or patio. </p>
+                                    <a href="#" title="Read more">Read more</a>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./img/blog_3.png" alt="Blog image 3">
+                                <div>
+                                    <p>September 15  I Read in 3 minutes</p>
+                                    <h3>Cactus & Succulent
+                                        Care Tips</h3>
+                                    <p>Cacti are succulents are easy care plants for any home or patio. </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./img/blog_4.png" alt="Blog image 4">
+                                <div>
+                                    <p>September 15  I Read in 2 minutes</p>
+                                    <h3>Cactus & Succulent
+                                        Care Tips</h3>
+                                    <p>Cacti are succulents are easy care plants for any home or patio. </p>
+                                    <a href="#">Read more</a>
+                                </div>
+                            </article>
+                        </div>
+                </div>
+            </section>
+
     </main>
     <footer>
         <div class="container">
