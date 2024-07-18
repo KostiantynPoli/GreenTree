@@ -297,8 +297,12 @@ main .container {
     max-width:258px;
     display: flex;
     flex-direction: column;
+    border-top: solid 1px transparent;
 }
 
+.product-item:hover {
+    border-top: solid 1px #46a358;
+}
 
 .product-item img {
     padding: 4px;
@@ -342,9 +346,11 @@ main .container {
     line-height: 89%;
     color: #3d3d3d;
 }
-
-.pagination ul li:hover{
+.pagination ul li:hover {
     background: #46a358;
+}
+
+.pagination ul li:hover a{
     font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -427,6 +433,26 @@ main .container {
     text-align: center;
 }
 
+.blog h2 {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    padding-bottom: 15px;
+}
+
+.blog .sub-title {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    padding-bottom: 35px;
+}
+
 .blog .post-card-collection {
     display: flex;
     justify-content: space-between;
@@ -435,6 +461,66 @@ main .container {
 .blog .post-card-collection article {
     max-width: 268px;
 }
+
+.blog .shot-description{
+    display: inline-block;
+    flex-wrap:wrap;
+    text-align: left;
+    padding-left: 13px;
+}
+.blog .shot-description .green {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+}
+.blog .shot-description h3 {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    margin: 4px 0;
+}
+
+.blog .shot-description p {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    margin-bottom: 9px;
+}
+
+
+
+.blog .shot-description a {
+    font-family: 'cera_round_pro_demoregular', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    padding-right: 6px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog .shot-description a:hover {
+    color: #46a358;
+}
+
+.blog .shot-description a:hover svg path {
+    fill: #46A358;
+}
+/*Не взлетело */
+/*.blog .shot-description a:after{*/
+/*    content: url("./../img/arrow-read-more.svg");*/
+/*}*/
+/*.blog .shot-description a:after:hover {*/
+/*    content: url("./../img/arrow-read-more-hover.svg");*/
+/*}*/
 
 /*Register*/
 /*.modal {*/
