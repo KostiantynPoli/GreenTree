@@ -9,11 +9,9 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
-<div class="modal">
-    <div>
-        <span><img src="./img/closeButton.svg" alt="close"></span>
-    </div>
+<body class="register-modal">
+<div>
+    <span class="close-button"><img src="./img/closeButton.svg" alt="close" width="16px" height="16px"></span>
     <div class="title">
         <a href="#">Login</a><span>|</span><a href="#">Register</a>
     </div>
@@ -25,9 +23,9 @@
         <div>
             <input class="border" type="email" name="email" id="email" placeholder="Enter your email address">
         </div>
-        <div>
+        <div class="password">
             <input class="border" type="password" name="password" id="password" placeholder="Password">
-            <span class="eyes-icon"><img src="./img/eye.svg" alt="Eye">  </span>
+            <span class="eyes-icon"><img src="./img/eye.svg" alt="Eye" width="20px" height="20px">  </span>
         </div>
         <div>
             <input class="border" type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
@@ -38,8 +36,8 @@
         <span class="line"></span><p class="text">Or register with</p><span class="line"></span>
     </div>
     <div class="buttons">
-        <a href="#" class="border"><span><img src="./img/google.svg" alt="Google"></span> Continue with Google </a><br>
-        <a href="#" class="border"><span><img src="./img/facebok.svg"> </span> Continue with Facebook</a>
+        <a href="#" class="border"><img src="./img/google.svg" alt="Google"><span> Continue with Google</span></a><br>
+        <a href="#" class="border"><img src="./img/facebok.svg">  <span>Continue with Facebook</span></a>
     </div>
 </div>
 <footer></footer>
