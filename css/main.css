@@ -1075,6 +1075,7 @@ footer .container{
 
 .register-modal .password{
     position: relative;
+    border: 1px solid mediumpurple;
 }
 /*Kак правильно размещать глаза на поле пароля ? */
 .register-modal .eyes-icon{
