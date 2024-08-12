@@ -15,6 +15,16 @@ $(document).ready(function(){
             1100: {
                 items: 4
             },
+            1024:{
+                items: 3
+            },
+            800: {
+                items: 2
+            },
+            740: {
+                items: 2
+            }
+
         }
     })
 })

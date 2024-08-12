@@ -1,8 +1,123 @@
 
-/*@media only screen and (min-width : 769px) {*/
-/*    .container {*/
-/*        padding: 0 15px;*/
-/*    }*/
+@media only screen and (max-width: 1024px)   {
+    .container {
+        padding: 0 15px;
+    }
+    .container-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    /*.owl-stage-outer .owl-stage .owl-item article{*/
+    /*    margin:0 10px;*/
+    /*    padding: 0 20px;*/
+    /*}*/
+    .blog .post-card-collection {
+        justify-content: center;
+    }
+
+    .plant-care .container {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    header .top-navigation {
+        display: none;
+    }
+
+    .categories-wrapper{
+        display: none;
+    }
+
+    .products{
+        justify-content: space-around;
+    }
+    .summer-collection .container {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .summer-collection .summer-item{
+        margin-bottom: 15px;
+    }
+
+    .summer-collection .summer-item h3, .summer-collection .summer-item p{
+        text-align: left;
+        margin-left: 30px;
+    }
+    .separator {
+        display: none;
+    }
+    .plant-care .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .plan-care-description{
+        text-align: center;
+    }
+
+    .subscription {
+        text-align: center;
+    }
+
+    .subscription form{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacts ul{
+        flex-direction: column;
+    }
+
+    .contacts li {
+        max-width: none;
+        margin: 10px 0;
+    }
+
+    .footer .container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navigation-footer-wrapper:nth-last-of-type(1){
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .container-banner {
+        align-items: normal;
+        padding: 68px 15px 0 15px;
+    }
+
+    .banner-image{
+        width: 360px;
+        height: 405px;
+    }
+
+    .banner-text p{
+        display: inline;
+        word-break: break-all;
+    }
+
+    .banner-text a{
+        display: block;
+        padding: 10px 27px;
+    }
+    .main .menu-wrapper{
+        display: none;
+    }
+
+    footer .container{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+}
 
 /*    .container-banner.background-gray, .plant-care .container {*/
 /*        display: block;*/

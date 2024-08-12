@@ -294,6 +294,8 @@ main {
 }
 
 
+
+
 .container-banner h1 {
     font-family: 'cera_round_pro_demoregular', sans-serif;
     font-weight: 900;
@@ -1075,7 +1077,6 @@ footer .container{
 
 .register-modal .password{
     position: relative;
-    border: 1px solid mediumpurple;
 }
 /*Kак правильно размещать глаза на поле пароля ? */
 .register-modal .eyes-icon{
