@@ -20,7 +20,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 820px) {
 
     header .top-navigation {
         display: none;
@@ -45,6 +45,10 @@
     .summer-collection .summer-item h3, .summer-collection .summer-item p{
         text-align: left;
         margin-left: 30px;
+    }
+
+    .blog .shot-description a {
+        margin-bottom: 10px;
     }
     .separator {
         display: none;
@@ -84,6 +88,11 @@
     .navigation-footer-wrapper:nth-last-of-type(1){
         padding-right: 0;
     }
+
+    .blog .post-card-collection article{
+        max-width: none;
+        margin: 0 8px
+    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -110,13 +119,21 @@
         display: none;
     }
 
+    .blog .post-card-collection article{
+        max-width: none;
+        margin:0;
+        margin-bottom: 10px;
+    }
+
     footer .container{
         flex-wrap: wrap;
     }
 }
 
 @media only screen and (max-width: 375px) {
-
+    .blog .post-card-collection article{
+        max-width: none;
+    }
 }
 
 /*    .container-banner.background-gray, .plant-care .container {*/
