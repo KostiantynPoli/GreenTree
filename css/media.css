@@ -131,8 +131,26 @@
 }
 
 @media only screen and (max-width: 375px) {
+    .summer-collection .summer-item {
+        flex-direction: column;
+    }
+
+    .summer-item-description {
+        text-align: left;
+    }
+
+    .summer-collection .summer-item a {
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
     .blog .post-card-collection article{
         max-width: none;
+    }
+    .subscription {
+        margin: 0;
+    }
+    .subscription input {
+        width: 200px;
     }
 }
 
