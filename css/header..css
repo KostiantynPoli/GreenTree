@@ -1,0 +1,166 @@
+header {
+  padding-top: 30px;
+}
+
+.shopLogo a {
+  margin-top: 1px;
+  margin-bottom: 17px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+}
+
+header .top-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top-navigation > li {
+  margin: 8px 25px 25px;
+}
+header .top-navigation > li:hover a {
+  font-family: "cera_round_pro_demoregular", sans-serif;
+  font-weight: 700;
+}
+header .top-navigation > li:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #46a358;
+  position: relative;
+  bottom: -25px;
+  /*transition: 0.4s;*/
+}
+header .top-navigation > li a {
+  font-family: "cera_round_pro_demoregular", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+header .top-navigation > li:hover:after {
+  width: 100%;
+}
+
+li.dropdown {
+  position: relative;
+}
+
+li.dropdown:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  display: none;
+  padding-top: 40px;
+  position: absolute;
+  bottom: -160px;
+  left: -60px;
+  min-width: 188px;
+}
+
+.sub-menu .sub-menu-item {
+  background: #edf6ee;
+  text-align: left;
+  padding-left: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.sub-menu .sub-menu-item:hover {
+  background: #46a358;
+}
+
+.sub-menu .sub-menu-item a {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+.sub-menu > .sub-menu-item:hover > a {
+  font-weight: 700;
+  color: #edf6ee;
+}
+
+.sub-menu-item > a.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-menu-item.dropdown > a.display-flex:after {
+  content: url("./../img/arrow-menu.svg");
+  padding-right: 17px;
+}
+
+.sub-menu-item.dropdown:hover > a.display-flex:after {
+  content: url("./../img/arrow-menu-hover.svg");
+}
+
+.sub-menu-item.dropdown .sub-menu-second {
+  display: none;
+  margin-left: 2px;
+  background: #edf6ee;
+  position: absolute;
+  left: 188px;
+  top: -91px;
+}
+
+.sub-menu-item.dropdown:hover .sub-menu-second {
+  display: block;
+}
+
+.sub-menu-item.dropdown:hover .sub-menu-second {
+  display: block;
+}
+
+.sub-menu-second-item {
+  min-width: 178px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 14px;
+}
+
+.sub-menu-second .sub-menu-second-item > a {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+.sub-menu-second .sub-menu-second-item:hover {
+  background: main;
+}
+
+.sub-menu-second .sub-menu-second-item:hover > a {
+  font-weight: 700;
+  color: #edf6ee;
+}
+
+.loginButton {
+  font-family: "cera_round_pro_demoregular", sans-serif;
+  background: #46a358;
+  border-radius: 6px;
+  padding: 7px 17px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf6ee;
+  margin-bottom: 18px;
+}
+
+.loginButton img {
+  padding-right: 7px;
+}
+
+/*# sourceMappingURL=header..css.map */
